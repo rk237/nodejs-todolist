@@ -1,2 +1,2 @@
 # nodejs-todolist
-This repo contains code for node js todo list application 
+This repo contains dockerized code for node js todo list application
