@@ -1,34 +1,4 @@
 <!DOCTYPE html>
-
-<html>
-
-    <head>
-        <title>Todo List App</title>
-        <style>
-            a {
-                text-decoration: none;
-                color: black;
-            }
-
-        </style>
-    </head>
-
-    <body>
-        <h1>Edit <%- todo %>:</h1>
-        <form action="/todo/edit/<%= todoIdx %>" method="post">
-            <p>
-                <label for="editTodo">Change to:</label>
-                <input type="hidden" name="_method" value="PUT">
-                <input type="text" name="editTodo" id="editTodo" autofocus placeholder="<%- todo %>" />
-                <input type="submit" value="Save" />
-            </p>
-        </form>
-    </body>
-
-</html>
-[rahul@sandboxpoc views]$ ^C
-[rahul@sandboxpoc views]$ cat todo.ejs
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Todo List APP test</title>
@@ -119,7 +89,7 @@
     </head>
 
     <body>
-        <h1>Hello Batch 5 (Jenkins), Write your plan on Learning Jenkins</h1>
+        <h1>Hello Junoon Batch 8 (Jenkins), Write your plan on Learning Jenkins</h1>
         <ul>
             <% todolist.forEach(function(todo, index) { %>
             <li>
